@@ -62,15 +62,7 @@ class OMX_Controller:
             [1000, 50, 50],
             [1000, 50, 50],
             [1000, 50, 4700],
-        ]  # p,i,d gain for each motorPID = [
-        # PID = [
-        #     [900, 5, 180],  # J1 (허리/어깨1)
-        #     [900, 5, 180],  # J2 (어깨2)
-        #     [800, 3, 150],  # J3 (팔꿈치)
-        #     [600, 0, 120],  # J4 (손목1)
-        #     [500, 0, 100],  # J5 (손목2)
-        # ]
-        # DYNAMIXEL Protocol Version (1.0 / 2.0)
+        ]  # p,i,d gain for each motor
         PROTOCOL_VERSION = 2.0
 
         # Make sure that each DYNAMIXEL ID should have unique ID.
